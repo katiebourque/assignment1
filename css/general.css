@@ -53,8 +53,9 @@ body {
 
 strong {
     font-weight: bold;
+    font-size: .9rem;
     font-family: didot, big caslon, serif;
-    color: #8EA3A3;
+    color: #666666;
 }
 
 .logo {
@@ -62,14 +63,21 @@ strong {
     width: auto;
     margin: .5rem 5%;
 }
+
+.dropcap:first-letter{
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: didot, big caslon, serif;
+    float: left;
+    color: #B27777;
+    margin: .1rem;
+    line-height: .8;
+}
+
 article {
     margin: 0;
     padding: 0 5%;
     overflow: hidden;
-}
-
-h1,h2,p {
-    text-align:left
 }
 
 h1 {color: #ffffff;
