@@ -44,7 +44,7 @@ body {
 .billboard {
     margin: 2rem 5% 2rem;
     overflow: hidden;
-    background-image: url(http://www.weallwantsomeone.org/wp-content/uploads/2012/11/Screen-Shot-2012-11-01-at-11.56.49-AM.png);
+    background-image: url(../images/graveyardvideo.png);
     background-position: left;
     background-repeat: no-repeat;
     border: solid .25rem; 
