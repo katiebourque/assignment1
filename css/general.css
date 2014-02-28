@@ -1,0 +1,142 @@
+
+margin: 40px auto 0; top, right/left, bottom
+
+@-moz-viewport { width: device-width; scale: 1; } /* Firefox */
+@-ms-viewport { width: device-width; scale: 1; } /* Internet Explorer */
+@-o-viewport { width: device-width; scale: 1; } /* Opera */
+@-webkit-viewport { width: device-width; scale: 1; } /* Safari & Chrome */
+@viewport { width: device-width; scale: 1; } 
+
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+html {
+    
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+       font-size: 100%; /* 100% = 16px = 1rem */
+    
+    
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background-color: #B2CCCC;
+    overflow: hidden;
+}
+
+.billboard {
+    margin: 2rem 5% 2rem;
+    overflow: hidden;
+    background-image: url(http://www.weallwantsomeone.org/wp-content/uploads/2012/11/Screen-Shot-2012-11-01-at-11.56.49-AM.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border: solid .25rem; 
+    border-color: #666666 ;
+}
+
+strong {
+    font-weight: bold;
+    font-family: didot, big caslon, serif;
+    color: #8EA3A3;
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    margin: .5rem 5%;
+}
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+h1,h2,p {
+    text-align:left
+}
+
+h1 {color: #ffffff;
+    font-family: verdana, arial, sans-serif;   
+    margin: 1.5rem 0;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 2.3rem;
+    text-align:center;
+}
+
+h2 { font-family: Didot, Big Caslon, serif;   
+    color: #B27777;
+    margin: 2rem;
+    font-size: 1.5rem;
+    line-height:1.7rem;
+    text-align:center
+}
+
+
+p   {color:#202020;
+    font-family: verdana, arial, sans-serif;  
+    font-size: .90rem;
+    line-height: 1.3rem;
+    margin: 0 0 .5rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%; 
+}
+
+
+figcaption {
+    font-family: verdana, arial, sans-serif;  
+    font-size: .70rem;
+    margin: .5rem 0;
+}
+
+details {
+    margin: 0 0 1rem;
+    font-size: .90rem;
+    font-family: verdana, arial, sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #B2CCCC;
+    overflow: hidden;
+}
+
+footer p {
+    color: white;
+    margin: .5rem 5% 4rem;
+    font-size: .75rem;
+}
+    
+footer a {
+    color: white;
+}
+
+A:link {
+ COLOR: white /*The color of the link*/
+}
+A:visited {
+ COLOR: #666666 /*The color of the visited link*/
+}
+A:hover {
+ COLOR: #ff6060 /*The color of the mouseover or 'hover' link*/
+}
